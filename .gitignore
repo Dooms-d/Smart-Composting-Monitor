@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment — never commit your MongoDB URI or API keys
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+*.log
+
+# Arduino / PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+*.bin
+*.elf
+*.hex
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
